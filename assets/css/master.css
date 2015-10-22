@@ -15,7 +15,7 @@ header{
 
 }
 
-header{
+.hlavnyheader{
     min-height: 500px;
     background: url("../images/index_pozadie.jpg");
     background-size: cover;
@@ -96,4 +96,64 @@ footer{
 }
 footer p{
     padding-top: 30px;
+}
+
+.sportheader{
+    min-height: 500px;
+    background: url("../images/sportheader.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*clanky sport*/
+.thumbnail {
+    position: relative;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.thumbnail:hover {
+    background-color: #b8a550;
+}
+
+.votes {
+    font-size: 47px;
+    color: #197BB5;
+    padding: 10px;
+}
+.thumbnail h4{
+    color:red;
+    font-family: impact;
+    font-size: 30px;
+}
+.thumbnail p{
+    color: inherit;
+    font-size: 15px;
+
+}
+.headerautor {
+    min-height: 300px;
+    background: url("../images/autorpozadie2.jpg");
+    background-position: center;
+}
+/*gastronomia*/
+.headergastronomia{
+    background: url("../images/gastronomia2.png");
+    min-height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-color: #ff8b9e;
+
+}
+.gastronomiaobsah{
+    padding: 15px;
+}
+.gastronomiaobsah h3 {
+    color:black ;
+
+}
+.gastronomiaobsah p{
+    text-align: justify;
 }
